@@ -1,0 +1,23 @@
+{
+  "name": "notifications-server",
+  "version": "1.0.0",
+  "description": "Procaddies notification server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firebase",
+    "notifications",
+    "server"
+  ],
+  "author": "Kiborgok Njoki Omao Kiplagat Atieno Ndegwa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2"
+  }
+}
